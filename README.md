@@ -1,7 +1,7 @@
 # SkyWards Journey
 
 
-![SkyWards Journey Banner](Screenshorts/Title Banner.png)
+![SkyWards Journey Banner](star-game/Screenshorts/Title Banner.png)
 
 A small 2D platformer game made with **Godot**, featuring two levels, custom artwork, and classic platforming mechanics.
 
@@ -34,9 +34,9 @@ Available for Windows and web browsers.
 
 ## Screenshots
 
-![SkyWards Journey - Gameplay](Screenshorts/Look 1.png)
+![SkyWards Journey - Gameplay](star-game/Screenshorts/Look 1.png)
 
-![SkyWards Journey - Gameplay](Screenshorts/Look 2.png)
+![SkyWards Journey - Gameplay](star-game/Screenshorts/Look 2.png)
 
 ## Game Design and Credits
 
