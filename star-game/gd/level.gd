@@ -4,7 +4,7 @@ extends Node2D
 var score: int = 0
 
 @export var total_coins: int = 6
-@export_file("*.tscn") var final_level_path: String = "res://final_level.tscn"
+@export_file("*.tscn") var final_level_path: String = "res://tscn/final_level.tscn"
 
 @onready var score_label: Label = $CanvasLayer/ScoreLabel
 

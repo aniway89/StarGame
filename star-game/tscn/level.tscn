@@ -1,29 +1,29 @@
 [gd_scene format=3 uid="uid://ccdiu12phovah"]
 
-[ext_resource type="PackedScene" uid="uid://dho7lds257weo" path="res://coin.tscn" id="1_1ainy"]
-[ext_resource type="Script" uid="uid://1p7l8uhbt5vr" path="res://level.gd" id="1_n6hdu"]
-[ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://BAckground.svg" id="1_u52ul"]
-[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="2_vonw3"]
-[ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://player.gd" id="3_0b4ue"]
-[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="5_f2txt"]
-[ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="5_u3yai"]
-[ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="6_fj6e6"]
-[ext_resource type="Texture2D" uid="uid://befif7i2w2yhf" path="res://Player animation assets/idle_03.png" id="7_2h3vt"]
-[ext_resource type="Texture2D" uid="uid://dwy48kv6plf83" path="res://Player animation assets/idle_04.png" id="8_yjxuc"]
-[ext_resource type="Texture2D" uid="uid://buv2e2mdfbsx4" path="res://Player animation assets/idle_05.png" id="9_hvubb"]
-[ext_resource type="Texture2D" uid="uid://b11unhs8nqrw4" path="res://Player animation assets/idle_06.png" id="10_aoqsc"]
-[ext_resource type="Texture2D" uid="uid://bbx2ad6wtdm1x" path="res://Player animation assets/jump_01.png" id="11_mleqk"]
-[ext_resource type="Texture2D" uid="uid://t6i3ae2sm31y" path="res://Player animation assets/jump_02.png" id="12_6btg4"]
-[ext_resource type="Texture2D" uid="uid://8edeim3v4ca5" path="res://Player animation assets/jump_03.png" id="13_sl4om"]
-[ext_resource type="Texture2D" uid="uid://d03mna1arnmh7" path="res://Player animation assets/jump_04.png" id="14_dtg4e"]
-[ext_resource type="Texture2D" uid="uid://cbaqhhf14vbj4" path="res://Player animation assets/jump_05.png" id="15_ut2i6"]
-[ext_resource type="Texture2D" uid="uid://dqv2kjwsehaxd" path="res://Player animation assets/jump_06.png" id="16_0mnfp"]
-[ext_resource type="Texture2D" uid="uid://buv7g0rjal07q" path="res://Player animation assets/run_01.png" id="17_qw2y7"]
-[ext_resource type="Texture2D" uid="uid://s5lef6gvhlq" path="res://Player animation assets/run_02.png" id="18_uuqa8"]
-[ext_resource type="Texture2D" uid="uid://d0asn5iytfkwu" path="res://Player animation assets/run_03.png" id="19_samc1"]
-[ext_resource type="Texture2D" uid="uid://cix1d2ix2jyso" path="res://Player animation assets/run_04.png" id="20_oaehd"]
-[ext_resource type="Texture2D" uid="uid://dx8b8sabfekn1" path="res://Player animation assets/run_05.png" id="21_f8y3u"]
-[ext_resource type="Texture2D" uid="uid://dv5x55p7wqnuo" path="res://Player animation assets/run_06.png" id="22_0k1o5"]
+[ext_resource type="Script" uid="uid://1p7l8uhbt5vr" path="res://gd/level.gd" id="1_b37id"]
+[ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://Assets/BAckground.svg" id="2_i1arr"]
+[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="3_4ovw8"]
+[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="4_iuw1s"]
+[ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://gd/player.gd" id="5_b37id"]
+[ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="6_kok48"]
+[ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="7_b8ous"]
+[ext_resource type="Texture2D" uid="uid://dwy48kv6plf83" path="res://Player animation assets/idle_04.png" id="8_w8jyq"]
+[ext_resource type="Texture2D" uid="uid://buv2e2mdfbsx4" path="res://Player animation assets/idle_05.png" id="9_67q5d"]
+[ext_resource type="Texture2D" uid="uid://b11unhs8nqrw4" path="res://Player animation assets/idle_06.png" id="10_b8n84"]
+[ext_resource type="Texture2D" uid="uid://befif7i2w2yhf" path="res://Player animation assets/idle_03.png" id="11_3gqpq"]
+[ext_resource type="Texture2D" uid="uid://bbx2ad6wtdm1x" path="res://Player animation assets/jump_01.png" id="12_0u5ma"]
+[ext_resource type="Texture2D" uid="uid://t6i3ae2sm31y" path="res://Player animation assets/jump_02.png" id="13_l3gm1"]
+[ext_resource type="Texture2D" uid="uid://8edeim3v4ca5" path="res://Player animation assets/jump_03.png" id="14_f7nhu"]
+[ext_resource type="Texture2D" uid="uid://d03mna1arnmh7" path="res://Player animation assets/jump_04.png" id="15_e0gna"]
+[ext_resource type="Texture2D" uid="uid://cbaqhhf14vbj4" path="res://Player animation assets/jump_05.png" id="16_r4cho"]
+[ext_resource type="Texture2D" uid="uid://dqv2kjwsehaxd" path="res://Player animation assets/jump_06.png" id="17_46yrl"]
+[ext_resource type="Texture2D" uid="uid://buv7g0rjal07q" path="res://Player animation assets/run_01.png" id="18_padlq"]
+[ext_resource type="Texture2D" uid="uid://s5lef6gvhlq" path="res://Player animation assets/run_02.png" id="19_ij2jn"]
+[ext_resource type="Texture2D" uid="uid://d0asn5iytfkwu" path="res://Player animation assets/run_03.png" id="20_nqdaa"]
+[ext_resource type="Texture2D" uid="uid://cix1d2ix2jyso" path="res://Player animation assets/run_04.png" id="21_m1m15"]
+[ext_resource type="Texture2D" uid="uid://dv5x55p7wqnuo" path="res://Player animation assets/run_06.png" id="22_ajyqe"]
+[ext_resource type="Texture2D" uid="uid://dx8b8sabfekn1" path="res://Player animation assets/run_05.png" id="23_st6ly"]
+[ext_resource type="PackedScene" uid="uid://dho7lds257weo" path="res://tscn/coin.tscn" id="24_g8ccs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hprpq"]
 size = Vector2(1293, 39.2)
@@ -53,22 +53,22 @@ size = Vector2(39.885, 195.22287)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_u3yai")
+"texture": ExtResource("6_kok48")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_fj6e6")
+"texture": ExtResource("7_b8ous")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_yjxuc")
+"texture": ExtResource("8_w8jyq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_hvubb")
+"texture": ExtResource("9_67q5d")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_aoqsc")
+"texture": ExtResource("10_b8n84")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_2h3vt")
+"texture": ExtResource("11_3gqpq")
 }],
 "loop": 1,
 "name": &"idle",
@@ -76,22 +76,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("11_mleqk")
+"texture": ExtResource("12_0u5ma")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_6btg4")
+"texture": ExtResource("13_l3gm1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_sl4om")
+"texture": ExtResource("14_f7nhu")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_dtg4e")
+"texture": ExtResource("15_e0gna")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_ut2i6")
+"texture": ExtResource("16_r4cho")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_0mnfp")
+"texture": ExtResource("17_46yrl")
 }],
 "loop": 0,
 "name": &"jump",
@@ -99,22 +99,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("17_qw2y7")
+"texture": ExtResource("18_padlq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_uuqa8")
+"texture": ExtResource("19_ij2jn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_samc1")
+"texture": ExtResource("20_nqdaa")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_oaehd")
+"texture": ExtResource("21_m1m15")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_0k1o5")
+"texture": ExtResource("22_ajyqe")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_f8y3u")
+"texture": ExtResource("23_st6ly")
 }],
 "loop": 1,
 "name": &"run",
@@ -127,16 +127,16 @@ font_weight = 999
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n6hdu"]
 
 [node name="Level" type="Node2D" unique_id=1926244475]
-script = ExtResource("1_n6hdu")
+script = ExtResource("1_b37id")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=418127042]
 position = Vector2(1193.79, 357.73)
 scale = Vector2(1.22, 1.22)
-texture = ExtResource("1_u52ul")
+texture = ExtResource("2_i1arr")
 
 [node name="Ground Visiual" type="Polygon2D" parent="." unique_id=2017558378]
 position = Vector2(-99.995, 664)
-texture = ExtResource("2_vonw3")
+texture = ExtResource("3_4ovw8")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 689.915, 93.065, 0, 87)
@@ -144,7 +144,7 @@ polygon = PackedVector2Array(0, 0, 698.055, 0, 689.915, 93.065, 0, 87)
 [node name="Ground Visiual2" type="Polygon2D" parent="." unique_id=1632536232]
 position = Vector2(483.32, 663.86)
 offset = Vector2(115.34, 0)
-texture = ExtResource("2_vonw3")
+texture = ExtResource("3_4ovw8")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
@@ -152,7 +152,7 @@ polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
 [node name="Ground Visiual3" type="Polygon2D" parent="." unique_id=1524466029]
 position = Vector2(918, 665)
 offset = Vector2(115.34, 0)
-texture = ExtResource("2_vonw3")
+texture = ExtResource("3_4ovw8")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
@@ -166,20 +166,20 @@ shape = SubResource("RectangleShape2D_hprpq")
 
 [node name="Flor visiual top" type="Polygon2D" parent="." unique_id=607821955]
 position = Vector2(571, 396)
-texture = ExtResource("5_f2txt")
+texture = ExtResource("4_iuw1s")
 texture_offset = Vector2(-1.595, 1.7)
 texture_scale = Vector2(2.95, 2.95)
 polygon = PackedVector2Array(0, 0, 176.485, 0, 168.35, 80.25, 0, 78.91)
 
 [node name="Flor Visiual 2nd" type="Polygon2D" parent="." unique_id=1048223972]
 position = Vector2(-218, 332)
-texture = ExtResource("2_vonw3")
+texture = ExtResource("3_4ovw8")
 texture_scale = Vector2(2.44, 2.44)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 71.97, 0, 71.76)
 
 [node name="Flor visiual 3" type="Polygon2D" parent="." unique_id=20997736]
 position = Vector2(870, 199)
-texture = ExtResource("2_vonw3")
+texture = ExtResource("3_4ovw8")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 68.8, 0, 67.26)
 
@@ -229,7 +229,7 @@ shape = SubResource("RectangleShape2D_tfwd2")
 [node name="Player" type="CharacterBody2D" parent="." unique_id=382441909]
 position = Vector2(231.72, 300.88)
 scale = Vector2(0.7, 0.7)
-script = ExtResource("3_0b4ue")
+script = ExtResource("5_b37id")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=203833486]
 position = Vector2(0, 12.068512)
@@ -258,20 +258,20 @@ theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_n6hdu")
 text = "Coins: 0"
 
-[node name="Coin" parent="." unique_id=1807152868 instance=ExtResource("1_1ainy")]
+[node name="Coin" parent="." unique_id=1807152868 instance=ExtResource("24_g8ccs")]
 position = Vector2(243, 534)
 
-[node name="Coin2" parent="." unique_id=279293886 instance=ExtResource("1_1ainy")]
+[node name="Coin2" parent="." unique_id=279293886 instance=ExtResource("24_g8ccs")]
 position = Vector2(748, 324)
 
-[node name="Coin3" parent="." unique_id=1672289975 instance=ExtResource("1_1ainy")]
+[node name="Coin3" parent="." unique_id=1672289975 instance=ExtResource("24_g8ccs")]
 position = Vector2(1021, 134)
 
-[node name="Coin4" parent="." unique_id=717433421 instance=ExtResource("1_1ainy")]
+[node name="Coin4" parent="." unique_id=717433421 instance=ExtResource("24_g8ccs")]
 position = Vector2(831, 569)
 
-[node name="Coin5" parent="." unique_id=856313317 instance=ExtResource("1_1ainy")]
+[node name="Coin5" parent="." unique_id=856313317 instance=ExtResource("24_g8ccs")]
 position = Vector2(134, 290)
 
-[node name="Coin6" parent="." unique_id=1985633822 instance=ExtResource("1_1ainy")]
+[node name="Coin6" parent="." unique_id=1985633822 instance=ExtResource("24_g8ccs")]
 position = Vector2(375, 155)

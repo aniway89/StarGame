@@ -1,31 +1,31 @@
 [gd_scene format=3 uid="uid://c2g6srq8jdga1"]
 
-[ext_resource type="Script" uid="uid://beln40lp1wa1d" path="res://final_level.gd" id="1_6uicv"]
-[ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://BAckground.svg" id="1_oq70k"]
-[ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://player.gd" id="2_celvh"]
-[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="4_p6h35"]
-[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="5_0wel0"]
-[ext_resource type="PackedScene" uid="uid://dho7lds257weo" path="res://coin.tscn" id="6_celvh"]
-[ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="9_hkwef"]
-[ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="10_rpu2f"]
-[ext_resource type="Texture2D" uid="uid://befif7i2w2yhf" path="res://Player animation assets/idle_03.png" id="11_xydwm"]
-[ext_resource type="Texture2D" uid="uid://dwy48kv6plf83" path="res://Player animation assets/idle_04.png" id="12_m0ee3"]
-[ext_resource type="Texture2D" uid="uid://buv2e2mdfbsx4" path="res://Player animation assets/idle_05.png" id="13_gvijl"]
-[ext_resource type="Texture2D" uid="uid://b11unhs8nqrw4" path="res://Player animation assets/idle_06.png" id="14_pcfek"]
-[ext_resource type="Texture2D" uid="uid://bbx2ad6wtdm1x" path="res://Player animation assets/jump_01.png" id="15_fhewx"]
-[ext_resource type="Texture2D" uid="uid://t6i3ae2sm31y" path="res://Player animation assets/jump_02.png" id="16_k0nr2"]
-[ext_resource type="Texture2D" uid="uid://8edeim3v4ca5" path="res://Player animation assets/jump_03.png" id="17_nk2ls"]
-[ext_resource type="Texture2D" uid="uid://d03mna1arnmh7" path="res://Player animation assets/jump_04.png" id="18_buoj8"]
-[ext_resource type="Texture2D" uid="uid://cbaqhhf14vbj4" path="res://Player animation assets/jump_05.png" id="19_kfuqr"]
-[ext_resource type="Texture2D" uid="uid://dqv2kjwsehaxd" path="res://Player animation assets/jump_06.png" id="20_63507"]
-[ext_resource type="Texture2D" uid="uid://buv7g0rjal07q" path="res://Player animation assets/run_01.png" id="21_xn4sf"]
-[ext_resource type="Texture2D" uid="uid://s5lef6gvhlq" path="res://Player animation assets/run_02.png" id="22_qylhc"]
-[ext_resource type="Texture2D" uid="uid://d0asn5iytfkwu" path="res://Player animation assets/run_03.png" id="23_ftr4x"]
-[ext_resource type="Texture2D" uid="uid://cix1d2ix2jyso" path="res://Player animation assets/run_04.png" id="24_jo7ry"]
-[ext_resource type="Texture2D" uid="uid://dco7bjd540kvd" path="res://Game over.png" id="24_q4eft"]
-[ext_resource type="Texture2D" uid="uid://drxyo20dklf" path="res://Level complete.png" id="25_5437e"]
-[ext_resource type="Texture2D" uid="uid://dx8b8sabfekn1" path="res://Player animation assets/run_05.png" id="25_i0jyv"]
-[ext_resource type="Texture2D" uid="uid://dv5x55p7wqnuo" path="res://Player animation assets/run_06.png" id="26_2xc72"]
+[ext_resource type="Script" uid="uid://beln40lp1wa1d" path="res://gd/final_level.gd" id="1_8gd41"]
+[ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://Assets/BAckground.svg" id="2_wjjwe"]
+[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="3_0b11j"]
+[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="4_1hiru"]
+[ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://gd/player.gd" id="5_8gd41"]
+[ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="6_ryqid"]
+[ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="7_febba"]
+[ext_resource type="Texture2D" uid="uid://dwy48kv6plf83" path="res://Player animation assets/idle_04.png" id="8_qqi0l"]
+[ext_resource type="Texture2D" uid="uid://buv2e2mdfbsx4" path="res://Player animation assets/idle_05.png" id="9_cvqmp"]
+[ext_resource type="Texture2D" uid="uid://b11unhs8nqrw4" path="res://Player animation assets/idle_06.png" id="10_vr65b"]
+[ext_resource type="Texture2D" uid="uid://befif7i2w2yhf" path="res://Player animation assets/idle_03.png" id="11_1d8bf"]
+[ext_resource type="Texture2D" uid="uid://bbx2ad6wtdm1x" path="res://Player animation assets/jump_01.png" id="12_3x5ll"]
+[ext_resource type="Texture2D" uid="uid://t6i3ae2sm31y" path="res://Player animation assets/jump_02.png" id="13_ljfs5"]
+[ext_resource type="Texture2D" uid="uid://8edeim3v4ca5" path="res://Player animation assets/jump_03.png" id="14_jj2vj"]
+[ext_resource type="Texture2D" uid="uid://d03mna1arnmh7" path="res://Player animation assets/jump_04.png" id="15_7lqtg"]
+[ext_resource type="Texture2D" uid="uid://cbaqhhf14vbj4" path="res://Player animation assets/jump_05.png" id="16_dq6fh"]
+[ext_resource type="Texture2D" uid="uid://dqv2kjwsehaxd" path="res://Player animation assets/jump_06.png" id="17_pao7n"]
+[ext_resource type="Texture2D" uid="uid://buv7g0rjal07q" path="res://Player animation assets/run_01.png" id="18_pdwyw"]
+[ext_resource type="Texture2D" uid="uid://s5lef6gvhlq" path="res://Player animation assets/run_02.png" id="19_g0ih5"]
+[ext_resource type="Texture2D" uid="uid://d0asn5iytfkwu" path="res://Player animation assets/run_03.png" id="20_cwprv"]
+[ext_resource type="Texture2D" uid="uid://cix1d2ix2jyso" path="res://Player animation assets/run_04.png" id="21_g50ip"]
+[ext_resource type="Texture2D" uid="uid://dv5x55p7wqnuo" path="res://Player animation assets/run_06.png" id="22_ff6mq"]
+[ext_resource type="Texture2D" uid="uid://dx8b8sabfekn1" path="res://Player animation assets/run_05.png" id="23_oydhl"]
+[ext_resource type="Texture2D" uid="uid://dco7bjd540kvd" path="res://Game over.png" id="24_18nu7"]
+[ext_resource type="Texture2D" uid="uid://drxyo20dklf" path="res://Level complete.png" id="25_yju5l"]
+[ext_resource type="PackedScene" uid="uid://dho7lds257weo" path="res://tscn/coin.tscn" id="26_3oh8o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e0s3a"]
 size = Vector2(500, 40.61)
@@ -55,22 +55,22 @@ size = Vector2(39.885, 195.22287)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("9_hkwef")
+"texture": ExtResource("6_ryqid")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_rpu2f")
+"texture": ExtResource("7_febba")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_m0ee3")
+"texture": ExtResource("8_qqi0l")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_gvijl")
+"texture": ExtResource("9_cvqmp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_pcfek")
+"texture": ExtResource("10_vr65b")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_xydwm")
+"texture": ExtResource("11_1d8bf")
 }],
 "loop": 1,
 "name": &"idle",
@@ -78,22 +78,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("15_fhewx")
+"texture": ExtResource("12_3x5ll")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_k0nr2")
+"texture": ExtResource("13_ljfs5")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_nk2ls")
+"texture": ExtResource("14_jj2vj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_buoj8")
+"texture": ExtResource("15_7lqtg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_kfuqr")
+"texture": ExtResource("16_dq6fh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_63507")
+"texture": ExtResource("17_pao7n")
 }],
 "loop": 0,
 "name": &"jump",
@@ -101,22 +101,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("21_xn4sf")
+"texture": ExtResource("18_pdwyw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_qylhc")
+"texture": ExtResource("19_g0ih5")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_ftr4x")
+"texture": ExtResource("20_cwprv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("24_jo7ry")
+"texture": ExtResource("21_g50ip")
 }, {
 "duration": 1.0,
-"texture": ExtResource("26_2xc72")
+"texture": ExtResource("22_ff6mq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("25_i0jyv")
+"texture": ExtResource("23_oydhl")
 }],
 "loop": 1,
 "name": &"run",
@@ -130,35 +130,35 @@ font_weight = 999
 
 [node name="Final levl" type="Node2D" unique_id=2130210819]
 position = Vector2(-31, -1)
-script = ExtResource("1_6uicv")
+script = ExtResource("1_8gd41")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=1148093844]
 position = Vector2(102.61, 358.65)
 scale = Vector2(1.22, 1.22)
-texture = ExtResource("1_oq70k")
+texture = ExtResource("2_wjjwe")
 
 [node name="Flor visiual top" type="Polygon2D" parent="." unique_id=743763514]
 position = Vector2(572.195, 201.79)
-texture = ExtResource("4_p6h35")
+texture = ExtResource("3_0b11j")
 texture_offset = Vector2(-1.595, 1.7)
 texture_scale = Vector2(2.87, 2.87)
 polygon = PackedVector2Array(0, 0, 178.7, 0, 177.06, 83.865, 0, 83.245)
 
 [node name="Flor Visiual 2nd" type="Polygon2D" parent="." unique_id=585395375]
 position = Vector2(-159.17, 361.63)
-texture = ExtResource("5_0wel0")
+texture = ExtResource("4_1hiru")
 texture_scale = Vector2(2.44, 2.44)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 71.97, 0, 71.76)
 
 [node name="Flor visiual 3" type="Polygon2D" parent="." unique_id=169174123]
 position = Vector2(898.815, 472.32)
-texture = ExtResource("5_0wel0")
+texture = ExtResource("4_1hiru")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 78.7, 0, 79.295)
 
 [node name="Flor visiual 4" type="Polygon2D" parent="." unique_id=1067164993]
 position = Vector2(68.67, 609.69)
-texture = ExtResource("5_0wel0")
+texture = ExtResource("4_1hiru")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 610.805, 0, 600, 78.7, 0, 79.295)
 
@@ -215,7 +215,7 @@ shape = SubResource("RectangleShape2D_c88eq")
 [node name="Player" type="CharacterBody2D" parent="." unique_id=555910683]
 position = Vector2(231.72, 300.88)
 scale = Vector2(0.7, 0.7)
-script = ExtResource("2_celvh")
+script = ExtResource("5_8gd41")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1730744536]
 position = Vector2(0, 12.068512)
@@ -258,7 +258,7 @@ offset_bottom = 462.9605
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/GameOverUI/CenterContainer" unique_id=1360518601]
 position = Vector2(323.457, 96.77)
-texture = ExtResource("1_oq70k")
+texture = ExtResource("2_wjjwe")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/GameOverUI/CenterContainer" unique_id=2034138435]
 layout_mode = 2
@@ -266,7 +266,7 @@ layout_mode = 2
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/GameOverUI/CenterContainer/VBoxContainer" unique_id=1805087664]
 position = Vector2(78.58884, -59.276302)
 scale = Vector2(0.46, 0.46)
-texture = ExtResource("24_q4eft")
+texture = ExtResource("24_18nu7")
 
 [node name="RestartButton" type="Button" parent="CanvasLayer/GameOverUI/CenterContainer/VBoxContainer" unique_id=2146706896]
 custom_minimum_size = Vector2(160, 0)
@@ -286,7 +286,7 @@ offset_bottom = 462.9605
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/LevelCompleteUI/CenterContainer" unique_id=1827357007]
 position = Vector2(323.45724, 374.14474)
-texture = ExtResource("1_oq70k")
+texture = ExtResource("2_wjjwe")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/LevelCompleteUI/CenterContainer" unique_id=162580964]
 layout_mode = 2
@@ -294,33 +294,33 @@ layout_mode = 2
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/LevelCompleteUI/CenterContainer/VBoxContainer" unique_id=1017040215]
 position = Vector2(81.24672, -58.618412)
 scale = Vector2(0.46, 0.46)
-texture = ExtResource("25_5437e")
+texture = ExtResource("25_yju5l")
 
 [node name="HomeButton" type="Button" parent="CanvasLayer/LevelCompleteUI/CenterContainer/VBoxContainer" unique_id=174657464]
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "HOME"
 
-[node name="Coin" parent="." unique_id=1807152868 instance=ExtResource("6_celvh")]
+[node name="Coin" parent="." unique_id=1807152868 instance=ExtResource("26_3oh8o")]
 position = Vector2(76, 323)
 
-[node name="Coin2" parent="." unique_id=975759572 instance=ExtResource("6_celvh")]
+[node name="Coin2" parent="." unique_id=975759572 instance=ExtResource("26_3oh8o")]
 position = Vector2(152, 578)
 
-[node name="Coin3" parent="." unique_id=1145757350 instance=ExtResource("6_celvh")]
+[node name="Coin3" parent="." unique_id=1145757350 instance=ExtResource("26_3oh8o")]
 position = Vector2(551, 577)
 
-[node name="Coin8" parent="." unique_id=2109605475 instance=ExtResource("6_celvh")]
+[node name="Coin8" parent="." unique_id=2109605475 instance=ExtResource("26_3oh8o")]
 position = Vector2(677, 366)
 
-[node name="Coin4" parent="." unique_id=1663642442 instance=ExtResource("6_celvh")]
+[node name="Coin4" parent="." unique_id=1663642442 instance=ExtResource("26_3oh8o")]
 position = Vector2(664, 169)
 
-[node name="Coin5" parent="." unique_id=665508932 instance=ExtResource("6_celvh")]
+[node name="Coin5" parent="." unique_id=665508932 instance=ExtResource("26_3oh8o")]
 position = Vector2(974, 431)
 
-[node name="Coin6" parent="." unique_id=1055836117 instance=ExtResource("6_celvh")]
+[node name="Coin6" parent="." unique_id=1055836117 instance=ExtResource("26_3oh8o")]
 position = Vector2(1185, 233)
 
-[node name="Coin7" parent="." unique_id=217052778 instance=ExtResource("6_celvh")]
+[node name="Coin7" parent="." unique_id=217052778 instance=ExtResource("26_3oh8o")]
 position = Vector2(398, 74)

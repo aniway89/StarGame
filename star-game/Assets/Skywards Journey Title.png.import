@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2d4xmjwkk4d6"
-path="res://.godot/imported/SkyWards Journey.apple-touch-icon.png-6ae8a7f8b9a913fc3e7620220c775773.ctex"
+uid="uid://c5iuavjye1abj"
+path="res://.godot/imported/Skywards Journey Title.png-dd7a594940fd460ce8092897533ba7e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SkyWards Journey.apple-touch-icon.png"
-dest_files=["res://.godot/imported/SkyWards Journey.apple-touch-icon.png-6ae8a7f8b9a913fc3e7620220c775773.ctex"]
+source_file="res://Assets/Skywards Journey Title.png"
+dest_files=["res://.godot/imported/Skywards Journey Title.png-dd7a594940fd460ce8092897533ba7e4.ctex"]
 
 [params]
 

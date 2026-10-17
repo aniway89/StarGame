@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pfocegvuv627"
-path="res://.godot/imported/SkyWards Journey.png-78aeed90236d3d919cafe9aac853aa19.ctex"
+uid="uid://bcw7pq86kx62s"
+path="res://.godot/imported/Cute 2D Platformer Asset Sheet.png-2e15f67ac618c78e57619e2fc5883939.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SkyWards Journey.png"
-dest_files=["res://.godot/imported/SkyWards Journey.png-78aeed90236d3d919cafe9aac853aa19.ctex"]
+source_file="res://Assets/Cute 2D Platformer Asset Sheet.png"
+dest_files=["res://.godot/imported/Cute 2D Platformer Asset Sheet.png-2e15f67ac618c78e57619e2fc5883939.ctex"]
 
 [params]
 

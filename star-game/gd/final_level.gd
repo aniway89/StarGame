@@ -6,8 +6,8 @@ var game_over := false
 var level_completed := false
 
 @export var total_coins: int = 8
-@export var level_one_path: String = "res://level.tscn"
-@export var title_screen_path: String = "res://title_scren.tscn"
+@export var level_one_path: String = "res://tscn/level.tscn"
+@export var title_screen_path: String = "res://tscn/title_scren.tscn"
 
 @onready var score_label: Label = $CanvasLayer/ScoreLabel
 @onready var game_over_ui: Control = $CanvasLayer/GameOverUI
