@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://g4la0claxqi8"]
+
+[ext_resource type="Script" uid="uid://4hkvsj0kq0ga" path="res://title_scren.gd" id="1_25s3m"]
+[ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://BAckground.svg" id="1_k88d7"]
+[ext_resource type="Texture2D" uid="uid://dojy78x8j4jqv" path="res://Skywards Journey Title.png" id="3_we3s6"]
+
+[node name="Title Scren" type="Node2D" unique_id=1478689364]
+script = ExtResource("1_25s3m")
+
+[node name="Background" type="TextureRect" parent="." unique_id=912223731]
+offset_right = 1983.0
+offset_bottom = 914.0
+scale = Vector2(0.6533812, 0.8414781)
+texture = ExtResource("1_k88d7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1303097552]
+position = Vector2(654, 237)
+scale = Vector2(0.39, 0.39)
+texture = ExtResource("3_we3s6")
+
+[node name="MenuButtons" type="VBoxContainer" parent="." unique_id=1367720312]
+offset_left = 538.0
+offset_top = 381.0
+offset_right = 778.0
+offset_bottom = 533.0
+theme_override_constants/separation = 16
+
+[node name="StartButton" type="Button" parent="MenuButtons" unique_id=386451531]
+custom_minimum_size = Vector2(240, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Start"
+
+[node name="QuitButton" type="Button" parent="MenuButtons" unique_id=686570789]
+custom_minimum_size = Vector2(240, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Quit"
+
+[connection signal="pressed" from="MenuButtons/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MenuButtons/QuitButton" to="." method="_on_quit_button_pressed"]
