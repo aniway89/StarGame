@@ -1,7 +1,7 @@
 # SkyWards Journey
 
 
-![SkyWards Journey Banner](star-game/Screenshorts/Title Banner.png)
+![SkyWards Journey Banner]([star-game/Screenshorts/Title Banner.png](https://github.com/aniway89/StarGame/blob/main/star-game/Screenshorts/Title%20Banner.png))
 
 A small 2D platformer game made with **Godot**, featuring two levels, custom artwork, and classic platforming mechanics.
 
