@@ -34,9 +34,9 @@ Available for Windows and web browsers.
 
 ## Screenshots
 
-![SkyWards Journey - Gameplay](star-game/Screenshorts/Look 1.png)
+![SkyWards Journey - Gameplay](star-game/Screenshorts/Look1.png)
 
-![SkyWards Journey - Gameplay](star-game/Screenshorts/Look 2.png)
+![SkyWards Journey - Gameplay](star-game/Screenshorts/Look2.png)
 
 ## Game Design and Credits
 
