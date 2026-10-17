@@ -1,0 +1,11 @@
+res://title_scren.tscn
+res://level.tscn
+res://final_level.tscn
+res://coin.tscn
+res://tscn/level.tscn
+res://tscn/final_level.tscn
+res://tscn/title_scren.tscn
+res://tscn/coin.tscn
+res://gd/final_level.gd
+res://gd/level.gd
+res://gd/title_scren.gd

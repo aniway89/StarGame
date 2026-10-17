@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://4hkvsj0kq0ga" path="res://gd/title_scren.gd" id="1_jp4lf"]
 [ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://Assets/BAckground.svg" id="2_12eoq"]
-[ext_resource type="Texture2D" uid="uid://dojy78x8j4jqv" path="res://Skywards Journey Title.png" id="3_ij3aq"]
+[ext_resource type="Texture2D" uid="uid://c5iuavjye1abj" path="res://Assets/Skywards Journey Title.png" id="3_jp4lf"]
 
 [node name="Title Scren" type="Node2D" unique_id=1478689364]
 script = ExtResource("1_jp4lf")
@@ -16,7 +16,7 @@ texture = ExtResource("2_12eoq")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1303097552]
 position = Vector2(654, 237)
 scale = Vector2(0.39, 0.39)
-texture = ExtResource("3_ij3aq")
+texture = ExtResource("3_jp4lf")
 
 [node name="MenuButtons" type="VBoxContainer" parent="." unique_id=1367720312]
 offset_left = 538.0

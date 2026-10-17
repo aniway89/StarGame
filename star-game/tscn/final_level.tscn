@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://beln40lp1wa1d" path="res://gd/final_level.gd" id="1_8gd41"]
 [ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://Assets/BAckground.svg" id="2_wjjwe"]
-[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="3_0b11j"]
-[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="4_1hiru"]
+[ext_resource type="Texture2D" uid="uid://b3w30j8skrq8w" path="res://Assets/Hover.png" id="3_8gd41"]
+[ext_resource type="Texture2D" uid="uid://bcw7pq86kx62s" path="res://Assets/Cute 2D Platformer Asset Sheet.png" id="4_wjjwe"]
 [ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://gd/player.gd" id="5_8gd41"]
 [ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="6_ryqid"]
 [ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="7_febba"]
@@ -23,8 +23,8 @@
 [ext_resource type="Texture2D" uid="uid://cix1d2ix2jyso" path="res://Player animation assets/run_04.png" id="21_g50ip"]
 [ext_resource type="Texture2D" uid="uid://dv5x55p7wqnuo" path="res://Player animation assets/run_06.png" id="22_ff6mq"]
 [ext_resource type="Texture2D" uid="uid://dx8b8sabfekn1" path="res://Player animation assets/run_05.png" id="23_oydhl"]
-[ext_resource type="Texture2D" uid="uid://dco7bjd540kvd" path="res://Game over.png" id="24_18nu7"]
-[ext_resource type="Texture2D" uid="uid://drxyo20dklf" path="res://Level complete.png" id="25_yju5l"]
+[ext_resource type="Texture2D" uid="uid://ce6b3n6kafi1k" path="res://Assets/Game over.png" id="24_8gd41"]
+[ext_resource type="Texture2D" uid="uid://v3mxn4h0f6wa" path="res://Assets/Level complete.png" id="25_wjjwe"]
 [ext_resource type="PackedScene" uid="uid://dho7lds257weo" path="res://tscn/coin.tscn" id="26_3oh8o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e0s3a"]
@@ -139,26 +139,26 @@ texture = ExtResource("2_wjjwe")
 
 [node name="Flor visiual top" type="Polygon2D" parent="." unique_id=743763514]
 position = Vector2(572.195, 201.79)
-texture = ExtResource("3_0b11j")
+texture = ExtResource("3_8gd41")
 texture_offset = Vector2(-1.595, 1.7)
 texture_scale = Vector2(2.87, 2.87)
 polygon = PackedVector2Array(0, 0, 178.7, 0, 177.06, 83.865, 0, 83.245)
 
 [node name="Flor Visiual 2nd" type="Polygon2D" parent="." unique_id=585395375]
 position = Vector2(-159.17, 361.63)
-texture = ExtResource("4_1hiru")
+texture = ExtResource("4_wjjwe")
 texture_scale = Vector2(2.44, 2.44)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 71.97, 0, 71.76)
 
 [node name="Flor visiual 3" type="Polygon2D" parent="." unique_id=169174123]
 position = Vector2(898.815, 472.32)
-texture = ExtResource("4_1hiru")
+texture = ExtResource("4_wjjwe")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 78.7, 0, 79.295)
 
 [node name="Flor visiual 4" type="Polygon2D" parent="." unique_id=1067164993]
 position = Vector2(68.67, 609.69)
-texture = ExtResource("4_1hiru")
+texture = ExtResource("4_wjjwe")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 610.805, 0, 600, 78.7, 0, 79.295)
 
@@ -266,7 +266,7 @@ layout_mode = 2
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/GameOverUI/CenterContainer/VBoxContainer" unique_id=1805087664]
 position = Vector2(78.58884, -59.276302)
 scale = Vector2(0.46, 0.46)
-texture = ExtResource("24_18nu7")
+texture = ExtResource("24_8gd41")
 
 [node name="RestartButton" type="Button" parent="CanvasLayer/GameOverUI/CenterContainer/VBoxContainer" unique_id=2146706896]
 custom_minimum_size = Vector2(160, 0)
@@ -274,6 +274,7 @@ layout_mode = 2
 text = "Restart"
 
 [node name="LevelCompleteUI" type="Control" parent="CanvasLayer" unique_id=29975650]
+visible = false
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
@@ -294,7 +295,7 @@ layout_mode = 2
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/LevelCompleteUI/CenterContainer/VBoxContainer" unique_id=1017040215]
 position = Vector2(81.24672, -58.618412)
 scale = Vector2(0.46, 0.46)
-texture = ExtResource("25_yju5l")
+texture = ExtResource("25_wjjwe")
 
 [node name="HomeButton" type="Button" parent="CanvasLayer/LevelCompleteUI/CenterContainer/VBoxContainer" unique_id=174657464]
 custom_minimum_size = Vector2(160, 0)

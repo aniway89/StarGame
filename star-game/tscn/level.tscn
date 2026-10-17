@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://1p7l8uhbt5vr" path="res://gd/level.gd" id="1_b37id"]
 [ext_resource type="Texture2D" uid="uid://bmr3v2mc3840x" path="res://Assets/BAckground.svg" id="2_i1arr"]
-[ext_resource type="Texture2D" uid="uid://cyuaxojhqeyw2" path="res://Cute 2D Platformer Asset Sheet.png" id="3_4ovw8"]
-[ext_resource type="Texture2D" uid="uid://busa8cxcxmbe7" path="res://Hover.png" id="4_iuw1s"]
+[ext_resource type="Texture2D" uid="uid://bcw7pq86kx62s" path="res://Assets/Cute 2D Platformer Asset Sheet.png" id="3_i1arr"]
+[ext_resource type="Texture2D" uid="uid://b3w30j8skrq8w" path="res://Assets/Hover.png" id="4_4ovw8"]
 [ext_resource type="Script" uid="uid://bxehkdi1qlehe" path="res://gd/player.gd" id="5_b37id"]
 [ext_resource type="Texture2D" uid="uid://blshvawc26a1j" path="res://Player animation assets/idle_01.png" id="6_kok48"]
 [ext_resource type="Texture2D" uid="uid://wwr32iy6lldl" path="res://Player animation assets/idle_02.png" id="7_b8ous"]
@@ -136,7 +136,7 @@ texture = ExtResource("2_i1arr")
 
 [node name="Ground Visiual" type="Polygon2D" parent="." unique_id=2017558378]
 position = Vector2(-99.995, 664)
-texture = ExtResource("3_4ovw8")
+texture = ExtResource("3_i1arr")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 689.915, 93.065, 0, 87)
@@ -144,7 +144,7 @@ polygon = PackedVector2Array(0, 0, 698.055, 0, 689.915, 93.065, 0, 87)
 [node name="Ground Visiual2" type="Polygon2D" parent="." unique_id=1632536232]
 position = Vector2(483.32, 663.86)
 offset = Vector2(115.34, 0)
-texture = ExtResource("3_4ovw8")
+texture = ExtResource("3_i1arr")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
@@ -152,7 +152,7 @@ polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
 [node name="Ground Visiual3" type="Polygon2D" parent="." unique_id=1524466029]
 position = Vector2(918, 665)
 offset = Vector2(115.34, 0)
-texture = ExtResource("3_4ovw8")
+texture = ExtResource("3_i1arr")
 texture_offset = Vector2(-68.235, 0.265)
 texture_scale = Vector2(2.15, 2.15)
 polygon = PackedVector2Array(0, 0, 698.055, 0, 686.93, 93.065, -9.655, 84.28)
@@ -166,20 +166,20 @@ shape = SubResource("RectangleShape2D_hprpq")
 
 [node name="Flor visiual top" type="Polygon2D" parent="." unique_id=607821955]
 position = Vector2(571, 396)
-texture = ExtResource("4_iuw1s")
+texture = ExtResource("4_4ovw8")
 texture_offset = Vector2(-1.595, 1.7)
 texture_scale = Vector2(2.95, 2.95)
 polygon = PackedVector2Array(0, 0, 176.485, 0, 168.35, 80.25, 0, 78.91)
 
 [node name="Flor Visiual 2nd" type="Polygon2D" parent="." unique_id=1048223972]
 position = Vector2(-218, 332)
-texture = ExtResource("3_4ovw8")
+texture = ExtResource("3_i1arr")
 texture_scale = Vector2(2.44, 2.44)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 71.97, 0, 71.76)
 
 [node name="Flor visiual 3" type="Polygon2D" parent="." unique_id=20997736]
 position = Vector2(870, 199)
-texture = ExtResource("3_4ovw8")
+texture = ExtResource("3_i1arr")
 texture_scale = Vector2(2.42, 2.42)
 polygon = PackedVector2Array(0, 0, 600, 0, 600, 68.8, 0, 67.26)
 
